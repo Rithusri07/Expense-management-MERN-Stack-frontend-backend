@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left:290px;
+    margin-right:290px;
+    margin-top: 100px;
+    border:1px solid black;
+    border-radius: 10px ;
+    background-color:rgba(255, 255, 255,0.08);
+    color:aliceblue;
+}
+
+.text{
+    font-family:fantasy;
+    color:rgb(123, 3, 123);
+    font-size:xx-large;
+    text-align: center;
+    padding-top: 20px;
+}
+.submit{
+    cursor: pointer;
+    background: purple;
+    border-radius: 50px;
+    height: 49px;
+    width: 150px; 
+    color: white;
+    font-size: 16px;
+    border: 1px solid blue;
+}
+.submit-con{
+    text-align: center;
+    padding: 20px;
+}
+.table{
+    text-align: center;
+}
+.input{
+    height: 25px;
+    width: 200px;
+}
+.forms{
+    padding: 5px;
+}
+.col{
+    padding-top: 20px;
+}
+.submit:hover{
+    transform: scale(1.1);
+}
+
